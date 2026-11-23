@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
     "checkJs": false
   },
-  "include": ["sketch.js", "types/global.d.ts"]
+  "include": ["src"]
 }
